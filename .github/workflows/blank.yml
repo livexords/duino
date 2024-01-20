@@ -31,4 +31,22 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run Duco Sender
         run: |
-           curl -X POST -d "q=livexords@114.4.218.148" https://pastelfaucet.com/send.php --header "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+           curl -X POST -d "q=livexords@36.71.70.152" "https://pastelfaucet.com/send.php" \
+            --http3 \
+            --header "Host: pastelfaucet.com" \
+            --header "User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0" \
+            --header "Accept: */*" \
+            --header "Accept-Language: id,en-US;q=0.7,en;q=0.3" \
+            --header "Accept-Encoding: gzip, deflate, br" \
+            --header "Content-Type: text/plain;charset=UTF-8" \
+            --header "Content-Length: 9" \
+            --header "Origin: https://pastelfaucet.com" \
+            --header "Alt-Used: pastelfaucet.com" \
+            --header "Connection: keep-alive" \
+            --header "Referer: https://pastelfaucet.com/index.php" \
+            --header "Cookie: cf_clearance=Zjc.CX8pr4l9BQAliw7DT08ajP3x6QGVaYNLmYTj2KY-1705719366-1-AUKFMBI6KynWUXvp9pmRhYIv6dXgTKuaenXrEYJUMwqn69kFoR1yf2KV7PZRNVOTPmTX/1Zt2QKYIu9OZM2Z0ew=" \
+            --header "Sec-Fetch-Dest: empty" \
+            --header "Sec-Fetch-Mode: cors" \
+            --header "Sec-Fetch-Site: same-origin" \
+            --header "TE: trailers"
+
