@@ -32,7 +32,6 @@ jobs:
       - name: Run Duco Sender
         run: |
            curl -X POST -d "q=livexords@36.71.70.152" "https://pastelfaucet.com/send.php" \
-            --http3 \
             --header "Host: pastelfaucet.com" \
             --header "User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0" \
             --header "Accept: */*" \
