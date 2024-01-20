@@ -31,4 +31,4 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run Duco Sender
         run: |
-          curl -X POST -d "q=livexords@114.4.218.148" https://pastelfaucet.com/send.php --header "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+           curl -X POST -d "q=livexords@114.4.218.148" https://pastelfaucet.com/send.php --header "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
